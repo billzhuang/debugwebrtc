@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "EF EVC WebRTC DEBUG",
+  "version": "1.0.1",
+
+  "description": "Test WebRTC for EF Corporate.",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "images/safe-48.png",
+      "32": "images/safe-48.png",
+      "48": "images/safe-48.png",
+      "64": "images/safe-48.png"
+    },
+    "default_title": "WebRTC Debug"
+  },
+
+  "icons": {
+    "16": "images/safe-48.png",
+    "32": "images/safe-48.png",
+    "48": "images/safe-48.png",
+    "64": "images/safe-48.png"
+  },
+
+  "background": {
+    "scripts": ["js/config_webrtc.js"]
+  },
+
+  "permissions": ["privacy", "browserSettings"]
+
+}
