@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "EF EVC WebRTC DEBUG",
-  "version": "1.0.1",
+  "version": "1.0.3",
 
   "description": "Test WebRTC for EF Corporate.",
 
@@ -26,6 +26,12 @@
     "scripts": ["js/config_webrtc.js"]
   },
 
-  "permissions": ["privacy", "browserSettings"]
+  "permissions": ["privacy", "browserSettings"],
+
+  "applications": {
+    "gecko": {
+      "id": "efevc@billzhuang.addons.mozilla.org"
+    }
+  }
 
 }

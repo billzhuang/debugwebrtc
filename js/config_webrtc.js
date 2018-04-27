@@ -12,7 +12,7 @@ browser.browserAction.onClicked.addListener(handleClick);
 function toggleWebRTC(enable = true) {
   // Update setting.
   browser.privacy.network.webRTCIPHandlingPolicy.set(
-    { value: enable ? 'default' : 'disable_non_proxied_udp' });
+    { value: enable ? 'default_public_interface_only' : 'disable_non_proxied_udp' });
 
   // Update title.
   const title = enable ?
